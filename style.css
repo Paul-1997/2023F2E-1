@@ -1,3 +1,17 @@
+/* postcss: autoprefixer */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+	body{
+		font-family: 'GenSekiGothic,sans-serif';
+		line-height: 1.5;
+	}
+}
+
+@font-face {
+	font-family: GenSekiGothic;
+	src: url('assets\GenSekiGothic-R.ttc');
+}

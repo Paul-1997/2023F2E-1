@@ -1,13 +1,169 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app" class="text-2xl"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>喵立翰</title>
+	</head>
+	<body>
+		<header class="flex justify-between items-center p-8 sticky top-0 z-50 bg-white">
+			<h1 class="flex items-center">
+				<a href="#">
+					<img src="/assets/image/logo.png" alt="" class="me-7" />
+				</a>
+				<div
+					class="flex text-white bg-dark px-4 py-2 rounded-3xl font-medium items-center text-xl"
+				>
+					<p class="me-1 font-GenSekiGothic font-bold">2024</p>
+					<p class="me-1">立委</p>
+					<p
+						class="me-1 text-dark bg-primary w-6 h-6 text-center rounded-full font-Montserrat font-bold"
+					>
+						3
+					</p>
+					<p>號參選人</p>
+				</div>
+			</h1>
+			<nav>
+				<ul class="flex justify-between font-medium gap-9">
+					<li><a href="#">候選人主張</a></li>
+					<li><a href="#">最新活動</a></li>
+					<li><a href="#">政策議題</a></li>
+					<li><a href="#">民眾服務信箱</a></li>
+					<li><a href="#">小額捐款</a></li>
+				</ul>
+			</nav>
+			<ul class="flex text-secondary gap-2">
+				<li class="hover:text-primary">
+					<a href="">
+						<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M22.0001 3.66675C11.8966 3.66675 3.66675 11.8966 3.66675 22.0001C3.66675 32.1036 11.8966 40.3334 22.0001 40.3334C32.1036 40.3334 40.3334 32.1036 40.3334 22.0001C40.3334 11.8966 32.1036 3.66675 22.0001 3.66675ZM22.0001 7.33341C30.122 7.33341 36.6667 13.8782 36.6667 22.0001C36.6667 29.3599 31.2865 35.4073 24.2345 36.4806V26.3722H28.5027L29.1723 22.0359H24.2345V19.6654C24.2345 17.8633 24.8216 16.2638 26.5082 16.2638H29.2153V12.4789C28.7386 12.4148 27.7326 12.2748 25.8315 12.2748C21.8605 12.2748 19.533 14.3722 19.533 19.1498V22.0359H15.4509V26.3722H19.533V36.4447C12.5956 35.275 7.33341 29.2789 7.33341 22.0001C7.33341 13.8782 13.8782 7.33341 22.0001 7.33341Z" fill="currentColor"/>
+							</svg>
+							
+					</a>
+				</li>
+				<li class="hover:text-primary">
+					<a href="">
+						<svg
+							width="44"
+							height="44"
+							viewBox="0 0 44 44"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M14.6667 5.5C9.61217 5.5 5.5 9.61217 5.5 14.6667V29.3333C5.5 34.3878 9.61217 38.5 14.6667 38.5H29.3333C34.3878 38.5 38.5 34.3878 38.5 29.3333V14.6667C38.5 9.61217 34.3878 5.5 29.3333 5.5H14.6667ZM14.6667 9.16667H29.3333C32.3657 9.16667 34.8333 11.6343 34.8333 14.6667V29.3333C34.8333 32.3657 32.3657 34.8333 29.3333 34.8333H14.6667C11.6343 34.8333 9.16667 32.3657 9.16667 29.3333V14.6667C9.16667 11.6343 11.6343 9.16667 14.6667 9.16667ZM31.1667 11C30.6804 11 30.2141 11.1932 29.8703 11.537C29.5265 11.8808 29.3333 12.3471 29.3333 12.8333C29.3333 13.3196 29.5265 13.7859 29.8703 14.1297C30.2141 14.4735 30.6804 14.6667 31.1667 14.6667C31.6529 14.6667 32.1192 14.4735 32.463 14.1297C32.8068 13.7859 33 13.3196 33 12.8333C33 12.3471 32.8068 11.8808 32.463 11.537C32.1192 11.1932 31.6529 11 31.1667 11ZM22 12.8333C16.9455 12.8333 12.8333 16.9455 12.8333 22C12.8333 27.0545 16.9455 31.1667 22 31.1667C27.0545 31.1667 31.1667 27.0545 31.1667 22C31.1667 16.9455 27.0545 12.8333 22 12.8333ZM22 16.5C25.0323 16.5 27.5 18.9677 27.5 22C27.5 25.0323 25.0323 27.5 22 27.5C18.9677 27.5 16.5 25.0323 16.5 22C16.5 18.9677 18.9677 16.5 22 16.5Z"
+								fill="currentColor"
+							/>
+						</svg>
+					</a>
+				</li>
+				<li class="hover:text-primary">
+					<a href=""
+						><svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_152_5809)">
+							<path d="M33 29.4801C31.6067 29.4801 30.36 30.0301 29.4067 30.8917L16.335 23.2834C16.4267 22.8617 16.5 22.4401 16.5 22.0001C16.5 21.5601 16.4267 21.1384 16.335 20.7167L29.26 13.1817C30.25 14.0984 31.5517 14.6667 33 14.6667C36.0433 14.6667 38.5 12.2101 38.5 9.16675C38.5 6.12341 36.0433 3.66675 33 3.66675C29.9567 3.66675 27.5 6.12341 27.5 9.16675C27.5 9.60675 27.5733 10.0284 27.665 10.4501L14.74 17.9851C13.75 17.0684 12.4483 16.5001 11 16.5001C7.95667 16.5001 5.5 18.9567 5.5 22.0001C5.5 25.0434 7.95667 27.5001 11 27.5001C12.4483 27.5001 13.75 26.9317 14.74 26.0151L27.7933 33.6418C27.7017 34.0267 27.6467 34.4301 27.6467 34.8334C27.6467 37.7851 30.0483 40.1867 33 40.1867C35.9517 40.1867 38.3533 37.7851 38.3533 34.8334C38.3533 31.8817 35.9517 29.4801 33 29.4801ZM33 7.33341C34.0083 7.33341 34.8333 8.15841 34.8333 9.16675C34.8333 10.1751 34.0083 11.0001 33 11.0001C31.9917 11.0001 31.1667 10.1751 31.1667 9.16675C31.1667 8.15841 31.9917 7.33341 33 7.33341ZM11 23.8334C9.99167 23.8334 9.16667 23.0084 9.16667 22.0001C9.16667 20.9917 9.99167 20.1667 11 20.1667C12.0083 20.1667 12.8333 20.9917 12.8333 22.0001C12.8333 23.0084 12.0083 23.8334 11 23.8334ZM33 36.7034C31.9917 36.7034 31.1667 35.8784 31.1667 34.8701C31.1667 33.8617 31.9917 33.0367 33 33.0367C34.0083 33.0367 34.8333 33.8617 34.8333 34.8701C34.8333 35.8784 34.0083 36.7034 33 36.7034Z" fill="currentColor"/>
+							</g>
+							<defs>
+							<clipPath id="clip0_152_5809">
+							<rect width="44" height="44" fill="currentColor"/>
+							</clipPath>
+							</defs>
+							</svg>
+					</a>
+				</li>
+			</ul>
+		</header>
+		<main class="relative  min-h-screen">
+			<div class="relative banner min-h-screen bg-[length:100vw_100vh] bg-no-repeat bg-right -z-50 mb-16" style="background-image: url('./assets/image/bannerbg.png');">
+			</div>
+			<div class="flex justify-center relative flex-col-reverse lg:flex-row container">
+					<div class="[width:480px] ">
+						<h2 class="mb-16 [font-size:64px]">候選人主張</h2>
+					<div class="font-medium">
+						<p class="text-secondary text-4xl mb-8">我堅信 ! </p>
+						<p class="text-2xl mb-10">藉由推動更完善的貓咪福利和相關政策，<br>
+							更是間接地投資於<span class="text-4xl text-primary">台灣的未來</span></p>
+						<p class="mb-10 font-light">畢竟，民眾的身心健康與工作熱情是推動經濟的核心動力。透過完善的貓咪福利政策，為台灣的 GDP 經濟帶來巨大效益。
+
+						</p>
+						<p class=" font-light pb-8">因此，我期望能在立法院內推進這些政策，確保每一隻貓咪都能得到他們應有的照顧，同時也為台灣的經濟發展助一臂之力。</p>
+						<hr class="border-dark mb-8 w-1/2">
+						<p class="text-secondary">護航台灣的幸福經濟，從照顧每一隻貓咪開始。</p>
+					</div>
+					</div>
+					<img src="/assets/image/cat_advocate.png" alt="">				
+			</div>
+			<section id="policy" class="min-h-screen flex justify-center items-center flex-grow flex-col" style="background-image: url('./assets/image/policy_bg.png');">
+				<div class="">
+					<h2>政策議題</h2>
+					<div class="card py-7 px-12 bg-white">
+						<h3>為毛孩子謀福利！ 推動寵物醫療保障方案</h3>
+					</div>
+				</div>
+			</section>		
+		</main>
+		<footer
+			class="py-11 bg-dark flex justify-evenly text-white font-GenSekiGothic"
+		>
+			<p>
+				<span class="text-xl">競選總部</span> <br />
+				地址：台灣喵星區 <br />毛茸茸大道88號，喵喵大樓3樓
+			</p>
+			<p class="flex justify-end flex-col">
+				電話：(02) 888-5678 <br />
+				電子郵件地址: meowoffice@linmeow.tw
+			</p>
+			<div class="flex items-end">
+				<ul class="flex gap-2 items-center">
+					<li>
+						<a href="#" class="text-white hover:text-primary">
+							<svg
+								width="30"
+								height="30"
+								viewBox="0 0 30 30"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M15 0C6.7335 0 0 6.7335 0 15C0 23.2665 6.7335 30 15 30C23.2665 30 30 23.2665 30 15C30 6.7335 23.2665 0 15 0ZM15 3C21.6452 3 27 8.35482 27 15C27 21.0217 22.598 25.9695 16.8281 26.8477V18.5771H20.3203L20.8682 15.0293H16.8281V13.0898C16.8281 11.6153 17.3085 10.3066 18.6885 10.3066H20.9033V7.20996C20.5133 7.15746 19.6903 7.04297 18.1348 7.04297C14.8858 7.04297 12.9814 8.75897 12.9814 12.668V15.0293H9.6416V18.5771H12.9814V26.8184C7.30544 25.8613 3 20.9554 3 15C3 8.35482 8.35482 3 15 3Z"
+									fill="currentColor"
+								/>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="text-white hover:text-primary"
+							><svg
+								width="37"
+								height="36"
+								viewBox="0 0 37 36"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M12.5 4.5C8.3645 4.5 5 7.8645 5 12V24C5 28.1355 8.3645 31.5 12.5 31.5H24.5C28.6355 31.5 32 28.1355 32 24V12C32 7.8645 28.6355 4.5 24.5 4.5H12.5ZM12.5 7.5H24.5C26.981 7.5 29 9.519 29 12V24C29 26.481 26.981 28.5 24.5 28.5H12.5C10.019 28.5 8 26.481 8 24V12C8 9.519 10.019 7.5 12.5 7.5ZM26 9C25.6022 9 25.2206 9.15804 24.9393 9.43934C24.658 9.72064 24.5 10.1022 24.5 10.5C24.5 10.8978 24.658 11.2794 24.9393 11.5607C25.2206 11.842 25.6022 12 26 12C26.3978 12 26.7794 11.842 27.0607 11.5607C27.342 11.2794 27.5 10.8978 27.5 10.5C27.5 10.1022 27.342 9.72064 27.0607 9.43934C26.7794 9.15804 26.3978 9 26 9ZM18.5 10.5C14.3645 10.5 11 13.8645 11 18C11 22.1355 14.3645 25.5 18.5 25.5C22.6355 25.5 26 22.1355 26 18C26 13.8645 22.6355 10.5 18.5 10.5ZM18.5 13.5C20.981 13.5 23 15.519 23 18C23 20.481 20.981 22.5 18.5 22.5C16.019 22.5 14 20.481 14 18C14 15.519 16.019 13.5 18.5 13.5Z"
+									fill="currentColor"
+								/></svg
+						></a>
+					</li>
+					<li>
+						<a href="#" class="text-white hover:text-primary"
+							><svg
+								width="33"
+								height="32"
+								viewBox="0 0 33 32"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M19.169 13.856L29.6114 2H27.1364L18.0717 12.294L10.8282 2H2.4751L13.427 17.568L2.4751 30H4.9501L14.5242 19.128L22.174 30H30.5272L19.169 13.856ZM15.7803 17.704L14.6707 16.154L5.8411 3.82H9.64229L16.7662 13.774L17.8758 15.324L27.1385 28.264H23.3373L15.7803 17.704Z"
+									fill="currentColor"
+								/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<script type="module" src="/main.js"></script>
+	</body>
 </html>
